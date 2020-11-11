@@ -124,7 +124,7 @@ double -------------> Quad Word
 | xmm2 | rcx | ecx | cx | cl |
 | xmm3 | rdx | edx | dx | dl |
 | xmm4 | rsi | esi | si | sil |
-| xmm5 | rdi | edi | di | sil |
+| xmm5 | rdi | edi | di | sdl |
 | xmm6 | rbp | ebp | bp | bpl |
 | xmm7 | rsp | esp | sp | spl |
 | xmm8 | r8 | r8d | r8w | r8b |
