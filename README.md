@@ -1,12 +1,6 @@
 > More details will be added in the future if necessary.\
 > Follow me on twitter : [@las_nish](https://twitter.com/las_nish)
 
-**Folders**
-
- - Source Codes => Simple Source Codes
- - Tutorials => Advanced NASM Assembly Tutorials
- - Projects => Sample Projects
-
 <hr>
 
 # NASM Assembly Tutorials
