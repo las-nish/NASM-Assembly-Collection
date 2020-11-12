@@ -1,3 +1,8 @@
+> More details will be added in the future if necessary.\
+> Follow me on twitter : [@las_nish](https://twitter.com/las_nish)
+
+<hr>
+
 # NASM Assembly Tutorials
 
 > Assembly Type :: **NASM**\
@@ -124,7 +129,7 @@ double -------------> Quad Word
 | xmm2 | rcx | ecx | cx | cl |
 | xmm3 | rdx | edx | dx | dl |
 | xmm4 | rsi | esi | si | sil |
-| xmm5 | rdi | edi | di | sdl |
+| xmm5 | rdi | edi | di | dil |
 | xmm6 | rbp | ebp | bp | bpl |
 | xmm7 | rsp | esp | sp | spl |
 | xmm8 | r8 | r8d | r8w | r8b |
@@ -701,5 +706,4 @@ ucomisd <RX_source> , <source>
  - [Assembly Basics](https://fliphtml5.com/lnym/tzcv/basic/351-368)
  - [Wikibooks](https://en.wikibooks.org/wiki/X86_Disassembly)
 
-> More details will be added in the future if necessary.\
-> Follow me on twitter : [@las_nish](https://twitter.com/las_nish)
+**Thank You ^-^**
