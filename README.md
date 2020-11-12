@@ -706,4 +706,10 @@ ucomisd <RX_source> , <source>
  - [Assembly Basics](https://fliphtml5.com/lnym/tzcv/basic/351-368)
  - [Wikibooks](https://en.wikibooks.org/wiki/X86_Disassembly)
 
+**Extra Tips**
+ - Generate clean MASM-INTEL Assembly from C File
+ ```
+ gcc -m64 -S -fno-asynchronous-unwind-tables -fno-dwarf2-cfi-asm -masm=intel [C_FILE.C]
+ ```
+
 **Thank You ^-^**
