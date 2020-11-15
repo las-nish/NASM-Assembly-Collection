@@ -101,7 +101,7 @@ start() {
 | ------- | ------------- | -------------- |
 | Byte | 8 bits | 1 bytes |
 | Word | 16 bits | 2 bytes |
-| Double Word bits | 32 | 4 bytes |
+| Double Word bits | 32bit | 4 bytes |
 | Quad Word | 64 bits | 8 bytes |
 | Double Quad Word | 128 bits | 16 bytes |
 
@@ -607,7 +607,7 @@ ret                           ; Return from a function
 
 ```assembly
 movss   <destination> , <source>    ; 32bit
-movdd   <destination> , <source>    ; 64bit
+movsd   <destination> , <source>    ; 64bit
 
 i.e.
 section .data
