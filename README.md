@@ -10,7 +10,7 @@
 > Platform :: **Linux 64bit**\
 > OS :: **[Parrot OS](https://parrotsec.org/)** and **WSL**\
 > Date :: **27 October 2020** @ **06:19 P.M.**\
-> Note :: **Everything here is very bries**
+> Note :: **Everything here is very brief**
 
 ### Required Tools
 
