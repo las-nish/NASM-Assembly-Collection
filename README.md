@@ -5,13 +5,6 @@
 
 # NASM Assembly Tutorials
 
-> Assembly Type :: **NASM**\
-> Architecture :: **x86_64**\
-> Platform :: **Linux 64bit**\
-> OS :: **[Parrot OS](https://parrotsec.org/)** and **WSL**\
-> Date :: **27 October 2020** @ **06:19 P.M.**\
-> Note :: **Everything here is very brief**
-
 ### Required Tools
 
 **Main Tools**
@@ -729,8 +722,15 @@ ucomisd <RX_source> , <source>
 
 **Extra Tips**
  - Generate clean MASM-INTEL Assembly from C File
- ```
- gcc -m64 -S -fno-asynchronous-unwind-tables -fno-dwarf2-cfi-asm -masm=intel [C_FILE.C]
- ```
+```
+gcc -m64 -S -fno-asynchronous-unwind-tables -fno-dwarf2-cfi-asm -masm=intel [C_FILE.C]
+```
+
+> Assembly Type :: **NASM**\
+> Architecture :: **x86_64**\
+> Platform :: **Linux 64bit**\
+> OS :: **[Parrot OS](https://parrotsec.org/)** and **WSL**\
+> Date :: **27 October 2020** @ **06:19 P.M.**\
+> Note :: **Everything here is very brief**
 
 **Thank You ^-^**
