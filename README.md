@@ -542,18 +542,18 @@ setge <label>       ; >=
 **Jump Conditional Instructions**
 
 ```assembly
-jn  <label>         ; if <operation_1> == <operation_2>
-jne <label>         ; if <operation_1> != <operation_2>
+je  <label>         ; ==
+jne <label>         ; !=
 
-jl  <label>         ; signed if <operation_1> < <operation_2>
-jle <label>         ; signed if <operation_1> <= <operation_2>
-jg  <label>         ; signed if <operation_1> > <operation_2>
-jge <label>         ; signed if <operation_1> >= <operation_2>
+jl  <label>         ; signed <
+jle <label>         ; signed <=
+jg  <label>         ; signed >
+jge <label>         ; signed >=
 
-jb  <label>         ; unsigned if <operation_1> < <operation_2>
-jbe <label>         ; unsigned if <operation_1> <= <operation_2>
-ja  <label>         ; unsigned if <operation_1> > <operation_2>
-jae <label>         ; unsigned if <operation_1> >= <operation_2>
+jb  <label>         ; unsigned <
+jbe <label>         ; unsigned <=
+ja  <label>         ; unsigned >
+jae <label>         ; unsigned >=
 ```
 
 ## Addressing Modes
