@@ -528,6 +528,17 @@ jmp <label>       ; Jump to specified label
 cmp <operation_1> , <operation_2>
 ```
 
+**Comparison Instructions**
+
+```assembly
+sete  <label>       ; ==
+setne <label>       ; !=
+setl  <label>       ; >
+setg  <label>       ; >
+setle <label>       ; <=
+setge <label>       ; >=
+```
+
 **Jump Conditional Instructions**
 
 ```assembly
