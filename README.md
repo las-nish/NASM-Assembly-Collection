@@ -27,12 +27,15 @@ sudo apt-get install build-essential
 sudo apt-get install vim-gtk3
 
 # Hex Editor
+
 sudo apt-get install xxd
 
 # Debugger
+
 sudo apt-get install ddd
 
 # SASM IDE
+
 sudo apt-get install sasm
 ```
 
@@ -736,6 +739,7 @@ ucomisd <RX_source> , <source>
  - [ASCII Table](http://www.asciitable.com/)
 
 **Resources**
+
  - [Assembly Tutorials](https://asmtutor.com/)
  - [PDF - Tutorials Point](https://www.tutorialspoint.com/assembly_programming/assembly_tutorial.pdf)
  - [PDF - Assembly with Ubuntu](http://www.egr.unlv.edu/~ed/assembly64.pdf)
@@ -744,6 +748,7 @@ ucomisd <RX_source> , <source>
 
 **Extra Tips**
  - Generate clean MASM-INTEL Assembly from C File
+
 ```
 gcc -m64 -S -fno-asynchronous-unwind-tables -fno-dwarf2-cfi-asm -masm=intel [C_FILE.C]
 ```
@@ -751,8 +756,8 @@ gcc -m64 -S -fno-asynchronous-unwind-tables -fno-dwarf2-cfi-asm -masm=intel [C_F
 > Assembly Type :: **NASM**\
 > Architecture :: **x86_64**\
 > Platform :: **Linux 64bit**\
-> OS :: **[Parrot OS](https://parrotsec.org/)** and **WSL**\
-> Date :: **27 October 2020** @ **06:19 P.M.**\
+> OS (Tested) :: **[Parrot OS](https://parrotsec.org/)**, **Ubuntu 20.04 LTS**, **Deepin Linux**, **Debian Linux** and **WSL Ubuntu LTS**\
+> Date (1st Update) :: **27 October 2020** @ **06:19 P.M.**\
 > Note :: **Everything here is very brief**
 
 **Thank You ^-^**
