@@ -1,7 +1,8 @@
 # Linux System Call Table
 
-> Linux 4.7\
 > x86_64
+
+For **32ibt** Syscalls, <https://github.com/AYIDouble/NASM-Assembly-Linux-Notes>
 
 | **%rax** | **System call** | **%rdi** | **%rsi** | **%rdx** | **%r10** | **%r8**| **%r9**|
 | ---- | ----------- | ---- | ---- | ---- | ---- | --- | --- |
