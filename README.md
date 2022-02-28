@@ -536,10 +536,18 @@ cmp <operation_1> , <operation_2>
 ```assembly
 sete  <label>       ; ==
 setne <label>       ; !=
-setl  <label>       ; >
-setg  <label>       ; >
-setle <label>       ; <=
-setge <label>       ; >=
+setq  <label>       ; <
+setle <label>       ; >
+setg  <label>       ; <=
+setle <label>       ; >=
+
+; Example
+; i = 10 >= 1
+;
+
+setle al
+movzx rax, al
+...
 ```
 
 **Jump Conditional Instructions**
