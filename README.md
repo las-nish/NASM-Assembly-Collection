@@ -41,7 +41,7 @@ sudo apt-get install sasm
 
 ### Compile NASM Files in Linux ( 64bit )
 
-```
+```bash
 nasm -f elf64 [ASM_FILE] -o [OBJ_FILE]
 ld [OBJ_FILE] -o [EXE_FILE]
 ./[EXE_FILE]
